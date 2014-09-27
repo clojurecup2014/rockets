@@ -1,10 +1,10 @@
 {"version":3,
  "file":
- "/Users/tabishev/Repos/rockets/resources/public/js/compiled/out/rockets/core.js",
+ "/media/d/devel/clojure/rockets/resources/public/js/compiled/out/rockets/core.js",
  "sources":["core.cljs"],
- "lineCount":59,
+ "lineCount":47,
  "mappings":
- "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",
+ "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",
  "names":
  ["rockets.core/world", "cljs.core/atom",
   "rockets.model_sample/start-state", "rockets.core/update-text",
@@ -13,13 +13,7 @@
   "rockets.core/update-state-log", "data",
   "clojure.browser.dom/set-text", "js/document", "sablono.util/to-str",
   "cljs.core/add-watch", "_", "rockets.core/_first_time_log_render",
-  "quiescent/component", "rockets.core/Root", "js/React.DOM.div",
-  "js/React.DOM.h1", "sablono.interpreter/input", "p1__44974#",
-  "js/React.DOM.p", "p1__44975#", "attrs44980", "cljs.core/apply",
-  "cljs.core/map?", "sablono.interpreter/attributes",
-  "cljs.core/remove", "cljs.core/nil?",
-  "sablono.interpreter/interpret", "attrs44981", "js/React.DOM.button",
-  "or__7881__auto__", "clojure.string/blank?", "rockets.core/render",
-  "quiescent/render", "rockets.core/_first_time_render",
+  "rockets.core/render", "quiescent/render",
+  "rockets.start/StartComponent", "rockets.core/_first_time_render",
   "figwheel.client/watch-and-reload", "cljs.core/swap!",
   "cljs.core/update-in", "cljs.core/not"]}

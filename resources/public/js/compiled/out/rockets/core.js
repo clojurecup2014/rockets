@@ -6,7 +6,9 @@ goog.require('quiescent');
 goog.require('figwheel.client');
 goog.require('clojure.browser.dom');
 goog.require('clojure.browser.dom');
+goog.require('rockets.start');
 goog.require('sablono.core');
+goog.require('rockets.start');
 goog.require('figwheel.client');
 goog.require('clojure.string');
 goog.require('rockets.model_sample');
@@ -31,21 +33,7 @@ if(typeof rockets.core._first_time_log_render !== 'undefined')
 }
 } else
 {}
-/**
-* 
-*/
-rockets.core.Root = quiescent.component.call(null,(function (data){return React.DOM.div(null,React.DOM.h1(null,"Welcome, Awesome Rocketeers!"),"Player 1",sablono.interpreter.input.call(null,{"type": "text", "value": new cljs.core.Keyword(null,"player1","player1",520336610).cljs$core$IFn$_invoke$arity$1(data), "onChange": (function (p1__44974_SHARP_){return rockets.core.update_text.call(null,new cljs.core.Keyword(null,"player1","player1",520336610),p1__44974_SHARP_.target.value);
-})}),React.DOM.p(null),"Player 2",sablono.interpreter.input.call(null,{"type": "text", "value": new cljs.core.Keyword(null,"player2","player2",520336611).cljs$core$IFn$_invoke$arity$1(data), "onChange": (function (p1__44975_SHARP_){return rockets.core.update_text.call(null,new cljs.core.Keyword(null,"player2","player2",520336611),p1__44975_SHARP_.target.value);
-})}),(function (){var attrs44980 = [cljs.core.str("First player name is "),cljs.core.str(new cljs.core.Keyword(null,"player1","player1",520336610).cljs$core$IFn$_invoke$arity$1(data))].join('');return cljs.core.apply.call(null,React.DOM.h1,((cljs.core.map_QMARK_.call(null,attrs44980))?sablono.interpreter.attributes.call(null,attrs44980):null),cljs.core.remove.call(null,cljs.core.nil_QMARK_,((cljs.core.map_QMARK_.call(null,attrs44980))?cljs.core.PersistentVector.EMPTY:new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [sablono.interpreter.interpret.call(null,attrs44980)], null))));
-})(),(function (){var attrs44981 = [cljs.core.str("Second player name is "),cljs.core.str(new cljs.core.Keyword(null,"player2","player2",520336611).cljs$core$IFn$_invoke$arity$1(data))].join('');return cljs.core.apply.call(null,React.DOM.h1,((cljs.core.map_QMARK_.call(null,attrs44981))?sablono.interpreter.attributes.call(null,attrs44981):null),cljs.core.remove.call(null,cljs.core.nil_QMARK_,((cljs.core.map_QMARK_.call(null,attrs44981))?cljs.core.PersistentVector.EMPTY:new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [sablono.interpreter.interpret.call(null,attrs44981)], null))));
-})(),React.DOM.p(null),React.DOM.button({"type": "button", "disabled": (function (){var or__7881__auto__ = clojure.string.blank_QMARK_.call(null,new cljs.core.Keyword(null,"player1","player1",520336610).cljs$core$IFn$_invoke$arity$1(data));if(cljs.core.truth_(or__7881__auto__))
-{return or__7881__auto__;
-} else
-{return clojure.string.blank_QMARK_.call(null,new cljs.core.Keyword(null,"player2","player2",520336611).cljs$core$IFn$_invoke$arity$1(data));
-}
-})()},"Go!"));
-}));
-rockets.core.render = (function render(data){return quiescent.render.call(null,rockets.core.Root.call(null,data),document.getElementById("main-area"));
+rockets.core.render = (function render(data){return quiescent.render.call(null,rockets.start.StartComponent.call(null,data),document.getElementById("main-area"));
 });
 if(typeof rockets.core._first_time_render !== 'undefined')
 {} else

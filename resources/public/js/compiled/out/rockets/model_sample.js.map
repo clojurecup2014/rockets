@@ -1,6 +1,6 @@
 {"version":3,
  "file":
- "/Users/tabishev/Repos/rockets/resources/public/js/compiled/out/rockets/model_sample.js",
+ "/media/d/devel/clojure/rockets/resources/public/js/compiled/out/rockets/model_sample.js",
  "sources":["model_sample.cljs"],
  "lineCount":13,
  "mappings":
