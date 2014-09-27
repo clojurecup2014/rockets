@@ -1,7 +1,7 @@
 // Compiled by ClojureScript 0.0-2202
 goog.provide('rockets.model_sample');
 goog.require('cljs.core');
-rockets.model_sample.start_state = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"type","type",1017479852),new cljs.core.Keyword(null,"start","start",1123661780),new cljs.core.Keyword(null,"player1","player1",520336610),"name1",new cljs.core.Keyword(null,"player2","player2",520336611),"name2"], null);
+rockets.model_sample.start_state = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"type","type",1017479852),new cljs.core.Keyword(null,"start","start",1123661780),new cljs.core.Keyword(null,"player1","player1",520336610),"First Rocketeer",new cljs.core.Keyword(null,"player2","player2",520336611),"Second Rocketeer"], null);
 rockets.model_sample.generate_board = (function generate_board(){return cljs.core.PersistentVector.EMPTY;
 });
 rockets.model_sample.generate_rockets = (function generate_rockets(b1,b2){return cljs.core.PersistentVector.EMPTY;
