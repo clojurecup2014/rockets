@@ -19,7 +19,7 @@ if(typeof rockets.core.world !== 'undefined')
 {} else
 {rockets.core.world = cljs.core.atom.call(null,rockets.model_sample.start_state);
 }
-rockets.core.update_text = (function update_text(key,value){return cljs.core.reset_BANG_.call(null,rockets.core.world,cljs.core.assoc.call(null,cljs.core.deref.call(null,rockets.core.world),key,value));
+rockets.core.update_text = (function update_text(world_atom,key,value){return cljs.core.reset_BANG_.call(null,world_atom,cljs.core.assoc.call(null,cljs.core.deref.call(null,world_atom),key,value));
 });
 rockets.core.show_state_log = true;
 rockets.core.update_state_log = (function update_state_log(data){return clojure.browser.dom.set_text.call(null,document.getElementById("state-log"),sablono.util.to_str.call(null,data));
@@ -33,7 +33,7 @@ if(typeof rockets.core._first_time_log_render !== 'undefined')
 }
 } else
 {}
-rockets.core.render = (function render(data){return quiescent.render.call(null,rockets.start.StartComponent.call(null,data),document.getElementById("main-area"));
+rockets.core.render = (function render(data){return quiescent.render.call(null,rockets.start.StartComponent.call(null,data,rockets.core.world),document.getElementById("main-area"));
 });
 if(typeof rockets.core._first_time_render !== 'undefined')
 {} else

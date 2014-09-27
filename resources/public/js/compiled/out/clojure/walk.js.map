@@ -1,6 +1,6 @@
 {"version":3,
  "file":
- "/media/d/devel/clojure/rockets/resources/public/js/compiled/out/clojure/walk.js",
+ "/Users/tabishev/Repos/rockets/resources/public/js/compiled/out/clojure/walk.js",
  "sources":["walk.cljs"],
  "lineCount":95,
  "mappings":
@@ -11,9 +11,9 @@
   "cljs.core/into", "cljs.core/empty", "clojure.walk/postwalk", "f",
   "cljs.core/partial", "postwalk", "clojure.walk/prewalk", "prewalk",
   "cljs.core/identity", "clojure.walk/keywordize-keys", "m",
-  "p__23907", "vec__23908", "cljs.core/nth", "k", "v",
+  "p__14828", "vec__14829", "cljs.core/nth", "k", "v",
   "cljs.core/keyword", "x", "cljs.core/map?",
-  "clojure.walk/stringify-keys", "p__23911", "vec__23912",
+  "clojure.walk/stringify-keys", "p__14832", "vec__14833",
   "cljs.core/Keyword", "cljs.core/name",
   "clojure.walk/prewalk-replace", "smap", "cljs.core/contains?",
   "clojure.walk/postwalk-replace"]}

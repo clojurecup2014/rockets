@@ -8,46 +8,46 @@ goog.require('cljs.core');
 * unchanged.
 */
 quiescent.js_props = (function js_props(obj){if(cljs.core.map_QMARK_.call(null,obj))
-{var o = (function (){var obj27090 = {};return obj27090;
-})();var seq__27091_27097 = cljs.core.seq.call(null,obj);var chunk__27092_27098 = null;var count__27093_27099 = 0;var i__27094_27100 = 0;while(true){
-if((i__27094_27100 < count__27093_27099))
-{var vec__27095_27101 = cljs.core._nth.call(null,chunk__27092_27098,i__27094_27100);var k_27102 = cljs.core.nth.call(null,vec__27095_27101,0,null);var v_27103 = cljs.core.nth.call(null,vec__27095_27101,1,null);(o[cljs.core.name.call(null,k_27102)] = js_props.call(null,v_27103));
+{var o = (function (){var obj18011 = {};return obj18011;
+})();var seq__18012_18018 = cljs.core.seq.call(null,obj);var chunk__18013_18019 = null;var count__18014_18020 = 0;var i__18015_18021 = 0;while(true){
+if((i__18015_18021 < count__18014_18020))
+{var vec__18016_18022 = cljs.core._nth.call(null,chunk__18013_18019,i__18015_18021);var k_18023 = cljs.core.nth.call(null,vec__18016_18022,0,null);var v_18024 = cljs.core.nth.call(null,vec__18016_18022,1,null);(o[cljs.core.name.call(null,k_18023)] = js_props.call(null,v_18024));
 {
-var G__27104 = seq__27091_27097;
-var G__27105 = chunk__27092_27098;
-var G__27106 = count__27093_27099;
-var G__27107 = (i__27094_27100 + 1);
-seq__27091_27097 = G__27104;
-chunk__27092_27098 = G__27105;
-count__27093_27099 = G__27106;
-i__27094_27100 = G__27107;
+var G__18025 = seq__18012_18018;
+var G__18026 = chunk__18013_18019;
+var G__18027 = count__18014_18020;
+var G__18028 = (i__18015_18021 + 1);
+seq__18012_18018 = G__18025;
+chunk__18013_18019 = G__18026;
+count__18014_18020 = G__18027;
+i__18015_18021 = G__18028;
 continue;
 }
 } else
-{var temp__4126__auto___27108 = cljs.core.seq.call(null,seq__27091_27097);if(temp__4126__auto___27108)
-{var seq__27091_27109__$1 = temp__4126__auto___27108;if(cljs.core.chunked_seq_QMARK_.call(null,seq__27091_27109__$1))
-{var c__8632__auto___27110 = cljs.core.chunk_first.call(null,seq__27091_27109__$1);{
-var G__27111 = cljs.core.chunk_rest.call(null,seq__27091_27109__$1);
-var G__27112 = c__8632__auto___27110;
-var G__27113 = cljs.core.count.call(null,c__8632__auto___27110);
-var G__27114 = 0;
-seq__27091_27097 = G__27111;
-chunk__27092_27098 = G__27112;
-count__27093_27099 = G__27113;
-i__27094_27100 = G__27114;
+{var temp__4126__auto___18029 = cljs.core.seq.call(null,seq__18012_18018);if(temp__4126__auto___18029)
+{var seq__18012_18030__$1 = temp__4126__auto___18029;if(cljs.core.chunked_seq_QMARK_.call(null,seq__18012_18030__$1))
+{var c__8629__auto___18031 = cljs.core.chunk_first.call(null,seq__18012_18030__$1);{
+var G__18032 = cljs.core.chunk_rest.call(null,seq__18012_18030__$1);
+var G__18033 = c__8629__auto___18031;
+var G__18034 = cljs.core.count.call(null,c__8629__auto___18031);
+var G__18035 = 0;
+seq__18012_18018 = G__18032;
+chunk__18013_18019 = G__18033;
+count__18014_18020 = G__18034;
+i__18015_18021 = G__18035;
 continue;
 }
 } else
-{var vec__27096_27115 = cljs.core.first.call(null,seq__27091_27109__$1);var k_27116 = cljs.core.nth.call(null,vec__27096_27115,0,null);var v_27117 = cljs.core.nth.call(null,vec__27096_27115,1,null);(o[cljs.core.name.call(null,k_27116)] = js_props.call(null,v_27117));
+{var vec__18017_18036 = cljs.core.first.call(null,seq__18012_18030__$1);var k_18037 = cljs.core.nth.call(null,vec__18017_18036,0,null);var v_18038 = cljs.core.nth.call(null,vec__18017_18036,1,null);(o[cljs.core.name.call(null,k_18037)] = js_props.call(null,v_18038));
 {
-var G__27118 = cljs.core.next.call(null,seq__27091_27109__$1);
-var G__27119 = null;
-var G__27120 = 0;
-var G__27121 = 0;
-seq__27091_27097 = G__27118;
-chunk__27092_27098 = G__27119;
-count__27093_27099 = G__27120;
-i__27094_27100 = G__27121;
+var G__18039 = cljs.core.next.call(null,seq__18012_18030__$1);
+var G__18040 = null;
+var G__18041 = 0;
+var G__18042 = 0;
+seq__18012_18018 = G__18039;
+chunk__18013_18019 = G__18040;
+count__18014_18020 = G__18041;
+i__18015_18021 = G__18042;
 continue;
 }
 }
@@ -78,26 +78,26 @@ quiescent._STAR_component_STAR_ = null;
 * but will *not* be included in any calculations regarding whether the
 * component should re-render.
 */
-quiescent.component = (function component(renderer){var react_component = React.createClass({"render": (function (){var this$ = this;var _STAR_component_STAR_27123 = quiescent._STAR_component_STAR_;try{quiescent._STAR_component_STAR_ = this$;
+quiescent.component = (function component(renderer){var react_component = React.createClass({"render": (function (){var this$ = this;var _STAR_component_STAR_18044 = quiescent._STAR_component_STAR_;try{quiescent._STAR_component_STAR_ = this$;
 return cljs.core.apply.call(null,renderer,(this$.props["value"]),(this$.props["statics"]));
-}finally {quiescent._STAR_component_STAR_ = _STAR_component_STAR_27123;
+}finally {quiescent._STAR_component_STAR_ = _STAR_component_STAR_18044;
 }}), "shouldComponentUpdate": (function (next_props,_){var this$ = this;return cljs.core.not_EQ_.call(null,(this$.props["value"]),(next_props["value"]));
 })});return ((function (react_component){
 return (function() { 
-var G__27124__delegate = function (value,static_args){return react_component.call(null,{"statics": static_args, "value": value});
+var G__18045__delegate = function (value,static_args){return react_component.call(null,{"statics": static_args, "value": value});
 };
-var G__27124 = function (value,var_args){
+var G__18045 = function (value,var_args){
 var static_args = null;if (arguments.length > 1) {
   static_args = cljs.core.array_seq(Array.prototype.slice.call(arguments, 1),0);} 
-return G__27124__delegate.call(this,value,static_args);};
-G__27124.cljs$lang$maxFixedArity = 1;
-G__27124.cljs$lang$applyTo = (function (arglist__27125){
-var value = cljs.core.first(arglist__27125);
-var static_args = cljs.core.rest(arglist__27125);
-return G__27124__delegate(value,static_args);
+return G__18045__delegate.call(this,value,static_args);};
+G__18045.cljs$lang$maxFixedArity = 1;
+G__18045.cljs$lang$applyTo = (function (arglist__18046){
+var value = cljs.core.first(arglist__18046);
+var static_args = cljs.core.rest(arglist__18046);
+return G__18045__delegate(value,static_args);
 });
-G__27124.cljs$core$IFn$_invoke$arity$variadic = G__27124__delegate;
-return G__27124;
+G__18045.cljs$core$IFn$_invoke$arity$variadic = G__18045__delegate;
+return G__18045;
 })()
 ;
 ;})(react_component))
@@ -106,37 +106,37 @@ return G__27124;
 * Wrapper component used to mix-in lifecycle access
 */
 quiescent.WrapperComponent = React.createClass({"componentWillUnmount": (function (){var this$ = this;var temp__4126__auto__ = (this$.props["onWillUnmount"]);if(cljs.core.truth_(temp__4126__auto__))
-{var f = temp__4126__auto__;var _STAR_component_STAR_27130 = quiescent._STAR_component_STAR_;try{quiescent._STAR_component_STAR_ = this$;
+{var f = temp__4126__auto__;var _STAR_component_STAR_18051 = quiescent._STAR_component_STAR_;try{quiescent._STAR_component_STAR_ = this$;
 return f.call(null);
-}finally {quiescent._STAR_component_STAR_ = _STAR_component_STAR_27130;
+}finally {quiescent._STAR_component_STAR_ = _STAR_component_STAR_18051;
 }} else
 {return null;
 }
 }), "componentWillUpdate": (function (_,___$1){var this$ = this;var temp__4126__auto__ = (this$.props["onWillUpdate"]);if(cljs.core.truth_(temp__4126__auto__))
-{var f = temp__4126__auto__;var _STAR_component_STAR_27129 = quiescent._STAR_component_STAR_;try{quiescent._STAR_component_STAR_ = this$;
+{var f = temp__4126__auto__;var _STAR_component_STAR_18050 = quiescent._STAR_component_STAR_;try{quiescent._STAR_component_STAR_ = this$;
 return f.call(null);
-}finally {quiescent._STAR_component_STAR_ = _STAR_component_STAR_27129;
+}finally {quiescent._STAR_component_STAR_ = _STAR_component_STAR_18050;
 }} else
 {return null;
 }
 }), "componentWillMount": (function (){var this$ = this;var temp__4126__auto__ = (this$.props["onWillMount"]);if(cljs.core.truth_(temp__4126__auto__))
-{var f = temp__4126__auto__;var _STAR_component_STAR_27128 = quiescent._STAR_component_STAR_;try{quiescent._STAR_component_STAR_ = this$;
+{var f = temp__4126__auto__;var _STAR_component_STAR_18049 = quiescent._STAR_component_STAR_;try{quiescent._STAR_component_STAR_ = this$;
 return f.call(null);
-}finally {quiescent._STAR_component_STAR_ = _STAR_component_STAR_27128;
+}finally {quiescent._STAR_component_STAR_ = _STAR_component_STAR_18049;
 }} else
 {return null;
 }
 }), "componentDidMount": (function (){var this$ = this;var temp__4126__auto__ = (this$.props["onMount"]);if(cljs.core.truth_(temp__4126__auto__))
-{var f = temp__4126__auto__;var _STAR_component_STAR_27127 = quiescent._STAR_component_STAR_;try{quiescent._STAR_component_STAR_ = this$;
+{var f = temp__4126__auto__;var _STAR_component_STAR_18048 = quiescent._STAR_component_STAR_;try{quiescent._STAR_component_STAR_ = this$;
 return f.call(null,this$.getDOMNode());
-}finally {quiescent._STAR_component_STAR_ = _STAR_component_STAR_27127;
+}finally {quiescent._STAR_component_STAR_ = _STAR_component_STAR_18048;
 }} else
 {return null;
 }
 }), "componentDidUpdate": (function (prev_props,prev_state){var this$ = this;var temp__4126__auto__ = (this$.props["onUpdate"]);if(cljs.core.truth_(temp__4126__auto__))
-{var f = temp__4126__auto__;var _STAR_component_STAR_27126 = quiescent._STAR_component_STAR_;try{quiescent._STAR_component_STAR_ = this$;
+{var f = temp__4126__auto__;var _STAR_component_STAR_18047 = quiescent._STAR_component_STAR_;try{quiescent._STAR_component_STAR_ = this$;
 return f.call(null,this$.getDOMNode());
-}finally {quiescent._STAR_component_STAR_ = _STAR_component_STAR_27126;
+}finally {quiescent._STAR_component_STAR_ = _STAR_component_STAR_18047;
 }} else
 {return null;
 }
@@ -159,8 +159,8 @@ return f.call(null,this$.getDOMNode());
 * @param {...*} var_args
 */
 quiescent.wrapper = (function() { 
-var wrapper__delegate = function (child,kvs){var props = quiescent.js_props.call(null,cljs.core.apply.call(null,cljs.core.array_map,new cljs.core.Keyword(null,"wrappee","wrappee",2609412088),child,kvs));var temp__4126__auto___27131 = (child.props["key"]);if(cljs.core.truth_(temp__4126__auto___27131))
-{var key_27132 = temp__4126__auto___27131;(props["key"] = key_27132);
+var wrapper__delegate = function (child,kvs){var props = quiescent.js_props.call(null,cljs.core.apply.call(null,cljs.core.array_map,new cljs.core.Keyword(null,"wrappee","wrappee",2609412088),child,kvs));var temp__4126__auto___18052 = (child.props["key"]);if(cljs.core.truth_(temp__4126__auto___18052))
+{var key_18053 = temp__4126__auto___18052;(props["key"] = key_18053);
 } else
 {}
 return quiescent.WrapperComponent.call(null,props);
@@ -170,9 +170,9 @@ var kvs = null;if (arguments.length > 1) {
   kvs = cljs.core.array_seq(Array.prototype.slice.call(arguments, 1),0);} 
 return wrapper__delegate.call(this,child,kvs);};
 wrapper.cljs$lang$maxFixedArity = 1;
-wrapper.cljs$lang$applyTo = (function (arglist__27133){
-var child = cljs.core.first(arglist__27133);
-var kvs = cljs.core.rest(arglist__27133);
+wrapper.cljs$lang$applyTo = (function (arglist__18054){
+var child = cljs.core.first(arglist__18054);
+var kvs = cljs.core.rest(arglist__18054);
 return wrapper__delegate(child,kvs);
 });
 wrapper.cljs$core$IFn$_invoke$arity$variadic = wrapper__delegate;

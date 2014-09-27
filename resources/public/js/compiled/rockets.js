@@ -18,4 +18,5 @@ goog.addDependency("../cljs/reader.js", ['cljs.reader'], ['goog.string', 'cljs.c
 goog.addDependency("../figwheel/client.js", ['figwheel.client'], ['goog.net.jsloader', 'cljs.core', 'cljs.core.async', 'clojure.string', 'cljs.reader']);
 goog.addDependency("../quiescent.js", ['quiescent'], ['cljs.core']);
 goog.addDependency("../rockets/model_sample.js", ['rockets.model_sample'], ['cljs.core']);
+goog.addDependency("../rockets/start.js", ['rockets.start'], ['cljs.core', 'clojure.browser.dom', 'sablono.core', 'figwheel.client', 'clojure.string', 'quiescent', 'rockets.model_sample']);
 goog.addDependency("../rockets/core.js", ['rockets.core'], ['cljs.core', 'clojure.browser.dom', 'rockets.start', 'sablono.core', 'figwheel.client', 'clojure.string', 'quiescent', 'rockets.model_sample']);
