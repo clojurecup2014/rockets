@@ -1,0 +1,10 @@
+{"version":3,
+ "file":
+ "/Users/tabishev/Repos/rockets/resources/public/js/compiled/out/rockets/core.js",
+ "sources":["core.cljs"],
+ "lineCount":11,
+ "mappings":
+ ";AAAA;;;;AAIA,AAACA;AAKD,4BAAA,5BAACC;AAED,2CAAA,3CAACC,sHACiB,aAAA,AAAA",
+ "names":
+ ["cljs.core/enable-console-print!", "cljs.core/println",
+  "figwheel.client/watch-and-reload"]}
