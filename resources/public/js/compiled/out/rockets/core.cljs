@@ -20,7 +20,7 @@
   [data] (cljsdom/set-text (.getElementById js/document "state-log") (sablono.util/to-str data)))
 (when show-state-log
   (add-watch
-    world ::render
+    world ::state-log-render
     (fn [_ _ _ data] (update-state-log data)))
   (defonce _first_time_log_render (update-state-log @world)))
 
