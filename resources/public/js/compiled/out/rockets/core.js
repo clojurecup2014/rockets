@@ -1,6 +1,7 @@
 // Compiled by ClojureScript 0.0-2202
 goog.provide('rockets.core');
 goog.require('cljs.core');
+goog.require('rockets.util');
 goog.require('sablono.core');
 goog.require('quiescent');
 goog.require('figwheel.client');
@@ -8,6 +9,7 @@ goog.require('clojure.browser.dom');
 goog.require('clojure.browser.dom');
 goog.require('rockets.start');
 goog.require('sablono.core');
+goog.require('rockets.util');
 goog.require('rockets.start');
 goog.require('figwheel.client');
 goog.require('clojure.string');
@@ -19,8 +21,6 @@ if(typeof rockets.core.world !== 'undefined')
 {} else
 {rockets.core.world = cljs.core.atom.call(null,rockets.model_sample.start_state);
 }
-rockets.core.update_text = (function update_text(world_atom,key,value){return cljs.core.reset_BANG_.call(null,world_atom,cljs.core.assoc.call(null,cljs.core.deref.call(null,world_atom),key,value));
-});
 rockets.core.show_state_log = true;
 rockets.core.update_state_log = (function update_state_log(data){return clojure.browser.dom.set_text.call(null,document.getElementById("state-log"),sablono.util.to_str.call(null,data));
 });

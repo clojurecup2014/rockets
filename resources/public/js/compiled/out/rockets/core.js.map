@@ -4,16 +4,14 @@
  "sources":["core.cljs"],
  "lineCount":47,
  "mappings":
- ";AAAA;;;;;;;;;;;;;;;;AAWA,GAAA,OAASA;CAAT;CAAA,AAAA,AAASA,qBAAM,AAACC,yBAAKC;;AAErB,2BAAA,4CAAA,vEAAMC,iDACHC,WAAWC,IAAIC,OAAO,OAACC,gCAAOH,WAAW,0BAAA,AAAAI,1BAACC,oDAAOL,YAAWC,IAAIC;;AAGnE,8BAAA,9BAAKI;AAEL,gCAAA,iCAAA,jEAAMC,2DACHC,MAAM,OAACC,uCAAiB,wBAAA,xBAAiBC,qCAAyB,AAACC,8BAAoBH;;AAC1F,oBAAMF;CAAN,AACE,iDAAA,jDAACM,8BACChB,uHACA,+BAAA,pBAAKiB,EAAEA,MAAEA,MAAEL,MAAM,OAACD,wCAAiBC;;AACrC,GAAA,OAASM;CAAT;CAAA,AAAA,AAASA,sCAAuB,wCAAA,AAAAV,xCAACG,kEAAkBX;;;CAJrD;AAOA,sBAAA,uBAAA,7CAAMmB,uCAAQP,MACZ,OAACQ,2BACC,AAACC,uCAAqBT,KAAKZ,oBAE3B,wBAAA,xBAAiBc;;AAGrB,GAAA,OAASQ;CAAT;CAAA,AAAA,AAASA,kCAAmB,8BAAA,AAAAd,9BAACW,wDAAQnB;;AAGrC,iDAAA,jDAACgB,8BACChB,mGACA,+BAAA,pBAAKiB,EAAEA,MAAEA,MAAEL,MAAM,OAACO,8BAAOP;;AAG3B,2CAAA,3CAACW,sHAEC,aAAA,AAAO,6EAAA,mFAAA,zJAACC,+BAAMxB,mBAAMyB,0KAAqBC",
+ ";AAAA;;;;;;;;;;;;;;;;;;AAYA,GAAA,OAASA;CAAT;CAAA,AAAA,AAASA,qBAAM,AAACC,yBAAKC;;AAGrB,8BAAA,9BAAKC;AAEL,gCAAA,iCAAA,jEAAMC,2DACHC,MAAM,OAACC,uCAAiB,wBAAA,xBAAiBC,qCAAyB,AAACC,8BAAoBH;;AAC1F,oBAAMF;CAAN,AACE,iDAAA,jDAACM,8BACCT,uHACA,+BAAA,pBAAKU,EAAEA,MAAEA,MAAEL,MAAM,OAACD,wCAAiBC;;AACrC,GAAA,OAASM;CAAT;CAAA,AAAA,AAASA,sCAAuB,wCAAA,AAAAC,xCAACR,kEAAkBJ;;;CAJrD;AAOA,sBAAA,uBAAA,7CAAMa,uCAAQR,MACZ,OAACS,2BACC,AAACC,uCAAqBV,KAAKL,oBAE3B,wBAAA,xBAAiBO;;AAGrB,GAAA,OAASS;CAAT;CAAA,AAAA,AAASA,kCAAmB,8BAAA,AAAAJ,9BAACC,wDAAQb;;AAGrC,iDAAA,jDAACS,8BACCT,mGACA,+BAAA,pBAAKU,EAAEA,MAAEA,MAAEL,MAAM,OAACQ,8BAAOR;;AAG3B,2CAAA,3CAACY,sHAEC,aAAA,AAAO,6EAAA,mFAAA,zJAACC,+BAAMlB,mBAAMmB,0KAAqBC",
  "names":
  ["rockets.core/world", "cljs.core/atom",
-  "rockets.model_sample/start-state", "rockets.core/update-text",
-  "world-atom", "key", "value", "cljs.core/reset!", "cljs.core/deref",
-  "cljs.core/assoc", "rockets.core/show-state-log",
+  "rockets.model_sample/start-state", "rockets.core/show-state-log",
   "rockets.core/update-state-log", "data",
   "clojure.browser.dom/set-text", "js/document", "sablono.util/to-str",
   "cljs.core/add-watch", "_", "rockets.core/_first_time_log_render",
-  "rockets.core/render", "quiescent/render",
+  "cljs.core/deref", "rockets.core/render", "quiescent/render",
   "rockets.start/StartComponent", "rockets.core/_first_time_render",
   "figwheel.client/watch-and-reload", "cljs.core/swap!",
   "cljs.core/update-in", "cljs.core/not"]}
