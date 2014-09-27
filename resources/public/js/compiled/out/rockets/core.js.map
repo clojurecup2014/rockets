@@ -2,13 +2,15 @@
  "file":
  "/Users/tabishev/Repos/rockets/resources/public/js/compiled/out/rockets/core.js",
  "sources":["core.cljs"],
- "lineCount":30,
+ "lineCount":34,
  "mappings":
- ";AAAA;;;;;;;;AAOA,GAAA,OAASA;CAAT;CAAA,AAAA,AAASA,qBAAM,yBAAA,2CAAA,qDAAA,zHAACC;;AAGhB;;;oBAAA,AAAAC,8BAAA,iBAAA,nEACEC,6DAAMC,MACN,IAAAC,sGAAA,AAAA,OAAAC,0BAAAC,aAAA,EAAA,AAAAC,+BAAAH,aAAA,AAAAI,yCAAAJ,YAAA,MAAA,AAAAK,2BAAAC,qBAAA,EAAA,AAAAH,+BAAAH,aAAA,iCAAA,mFAAA,AAAAO,wCAAAP,1eACO,AAAA,mFAAOD;;AAGhB,sBAAA,uBAAA,7CAAMS,uCAAQT,MACZ,OAACU,2BACC,AAACX,4BAAKC,MACN,wBAAA,xBAAiBW;;AAGrB,GAAA,OAASC;CAAT;CAAA,AAAA,AAASA,kCAAmB,8BAAA,AAAAC,9BAACJ,wDAAQb;;AAGrC,iDAAA,jDAACkB,8BACClB,mGACA,+BAAA,pBAAKmB,EAAEA,MAAEA,MAAEf,MAAM,OAACS,8BAAOT;;AAG3B,2CAAA,3CAACgB,sHAEC,aAAA,AAAO,6EAAA,mFAAA,zJAACC,+BAAMrB,mBAAMsB,0KAAqBC",
+ ";AAAA;;;;;;;;AAOA,GAAA,OAASA;CAAT;CAAA,AAAA,AAASA,qBAAM,yBAAA,2CAAA,qDAAA,zHAACC;;AAEhB,2BAAA,4BAAA,vDAAMC,iDACHC,MAAM,0DAAA,2CAAA,9FAACC,gCAAOJ,mHAAaG;;AAG9B;;;oBAAA,AAAAE,8BAAA,iBAAA,nEACEC,6DAAMC,MACN,OAAAC,cAAA,KAAA,AAAAC,oCAAA,SAAA,iBAAA,AAAA,sGAAA,WAAAC,kBAAA,AAAA,0CAAA,AAAA,AAAAA,1FAEwCH,uDAAoBL;KAF5D,iBAAAS,sGAAA,AAAA,OAAAC,0BAAAC,aAAA,EAAA,AAAAC,+BAAAH,aAAA,AAAAI,yCAAAJ,YAAA,MAAA,AAAAK,2BAAAC,qBAAA,EAAA,AAAAH,+BAAAH,aAAA,iCAAA,mFAAA,AAAAO,wCAAAP,1eAGQ,AAAA,mFAAOJ;;;AAGjB,sBAAA,uBAAA,7CAAMY,uCAAQZ,MACZ,OAACa,2BACC,AAACd,4BAAKC,MACN,wBAAA,xBAAiBc;;AAGrB,GAAA,OAASC;CAAT;CAAA,AAAA,AAASA,kCAAmB,8BAAA,AAAAC,9BAACJ,wDAAQnB;;AAGrC,iDAAA,jDAACwB,8BACCxB,mGACA,+BAAA,pBAAKyB,EAAEA,MAAEA,MAAElB,MAAM,OAACY,8BAAOZ;;AAG3B,2CAAA,3CAACmB,sHAEC,aAAA,AAAO,6EAAA,mFAAA,zJAACC,+BAAM3B,mBAAM4B,0KAAqBC",
  "names":
- ["rockets.core/world", "cljs.core/atom", "quiescent/component",
-  "rockets.core/Root", "data", "attrs13651", "cljs.core/apply",
-  "js/React.DOM.h1", "cljs.core/map?",
+ ["rockets.core/world", "cljs.core/atom", "rockets.core/update-text",
+  "text", "cljs.core/reset!", "quiescent/component",
+  "rockets.core/Root", "data", "js/React.DOM.div",
+  "sablono.interpreter/input", "p1__13759#", "attrs13760",
+  "cljs.core/apply", "js/React.DOM.h1", "cljs.core/map?",
   "sablono.interpreter/attributes", "cljs.core/remove",
   "cljs.core/nil?", "sablono.interpreter/interpret",
   "rockets.core/render", "quiescent/render", "js/document",

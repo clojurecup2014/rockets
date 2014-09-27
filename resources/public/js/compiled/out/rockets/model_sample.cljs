@@ -19,8 +19,7 @@
      :player2 "name2"
      :board1  board1
      :board2  board2
-     :rockets (generate-rockets board1 board2)
-     }))
+     :rockets (generate-rockets board1 board2)}))
 
 (def finish-state
   {:type    :finish

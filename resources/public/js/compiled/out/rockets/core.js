@@ -11,10 +11,14 @@ if(typeof rockets.core.world !== 'undefined')
 {} else
 {rockets.core.world = cljs.core.atom.call(null,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"text","text",1017460895),"Hello!"], null));
 }
+rockets.core.update_text = (function update_text(text){return cljs.core.reset_BANG_.call(null,rockets.core.world,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"text","text",1017460895),text], null));
+});
 /**
 * 
 */
-rockets.core.Root = quiescent.component.call(null,(function (data){var attrs13651 = new cljs.core.Keyword(null,"text","text",1017460895).cljs$core$IFn$_invoke$arity$1(data);return cljs.core.apply.call(null,React.DOM.h1,((cljs.core.map_QMARK_.call(null,attrs13651))?sablono.interpreter.attributes.call(null,attrs13651):null),cljs.core.remove.call(null,cljs.core.nil_QMARK_,((cljs.core.map_QMARK_.call(null,attrs13651))?cljs.core.PersistentVector.EMPTY:new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [sablono.interpreter.interpret.call(null,attrs13651)], null))));
+rockets.core.Root = quiescent.component.call(null,(function (data){return React.DOM.div(null,sablono.interpreter.input.call(null,{"type": "text", "value": new cljs.core.Keyword(null,"text","text",1017460895).cljs$core$IFn$_invoke$arity$1(data), "onChange": (function (p1__13759_SHARP_){return rockets.core.update_text.call(null,p1__13759_SHARP_.target.value);
+})}),(function (){var attrs13760 = new cljs.core.Keyword(null,"text","text",1017460895).cljs$core$IFn$_invoke$arity$1(data);return cljs.core.apply.call(null,React.DOM.h1,((cljs.core.map_QMARK_.call(null,attrs13760))?sablono.interpreter.attributes.call(null,attrs13760):null),cljs.core.remove.call(null,cljs.core.nil_QMARK_,((cljs.core.map_QMARK_.call(null,attrs13760))?cljs.core.PersistentVector.EMPTY:new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [sablono.interpreter.interpret.call(null,attrs13760)], null))));
+})());
 }));
 rockets.core.render = (function render(data){return quiescent.render.call(null,rockets.core.Root.call(null,data),document.getElementById("main-area"));
 });
