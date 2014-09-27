@@ -2,9 +2,16 @@
  "file":
  "/Users/tabishev/Repos/rockets/resources/public/js/compiled/out/rockets/core.js",
  "sources":["core.cljs"],
- "lineCount":11,
+ "lineCount":30,
  "mappings":
- ";AAAA;;;;AAIA,AAACA;AAKD,4BAAA,5BAACC;AAED,2CAAA,3CAACC,sHACiB,aAAA,AAAA",
+ ";AAAA;;;;;;;;AAOA,GAAA,OAASA;CAAT;CAAA,AAAA,AAASA,qBAAM,yBAAA,2CAAA,qDAAA,zHAACC;;AAGhB;;;oBAAA,AAAAC,8BAAA,iBAAA,nEACEC,6DAAMC,MACN,IAAAC,sGAAA,AAAA,OAAAC,0BAAAC,aAAA,EAAA,AAAAC,+BAAAH,aAAA,AAAAI,yCAAAJ,YAAA,MAAA,AAAAK,2BAAAC,qBAAA,EAAA,AAAAH,+BAAAH,aAAA,iCAAA,mFAAA,AAAAO,wCAAAP,1eACO,AAAA,mFAAOD;;AAGhB,sBAAA,uBAAA,7CAAMS,uCAAQT,MACZ,OAACU,2BACC,AAACX,4BAAKC,MACN,wBAAA,xBAAiBW;;AAGrB,GAAA,OAASC;CAAT;CAAA,AAAA,AAASA,kCAAmB,8BAAA,AAAAC,9BAACJ,wDAAQb;;AAGrC,iDAAA,jDAACkB,8BACClB,mGACA,+BAAA,pBAAKmB,EAAEA,MAAEA,MAAEf,MAAM,OAACS,8BAAOT;;AAG3B,2CAAA,3CAACgB,sHAEC,aAAA,AAAO,6EAAA,mFAAA,zJAACC,+BAAMrB,mBAAMsB,0KAAqBC",
  "names":
- ["cljs.core/enable-console-print!", "cljs.core/println",
-  "figwheel.client/watch-and-reload"]}
+ ["rockets.core/world", "cljs.core/atom", "quiescent/component",
+  "rockets.core/Root", "data", "attrs13651", "cljs.core/apply",
+  "js/React.DOM.h1", "cljs.core/map?",
+  "sablono.interpreter/attributes", "cljs.core/remove",
+  "cljs.core/nil?", "sablono.interpreter/interpret",
+  "rockets.core/render", "quiescent/render", "js/document",
+  "rockets.core/_first_time_render", "cljs.core/deref",
+  "cljs.core/add-watch", "_", "figwheel.client/watch-and-reload",
+  "cljs.core/swap!", "cljs.core/update-in", "cljs.core/not"]}
